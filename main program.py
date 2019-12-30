@@ -11,7 +11,7 @@ connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
 blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
 
-sc = Session(aws_access_key_id='AKIAYVOB3KT5I4HFQNPW', aws_secret_access_key='tCsOPV9q2mt2Q/bSIhesQYIGsQyu6IEYvHBB6gAm')#assigning acceskey & secret key of Goolgle-cloud for accessing thecloud account
+sc = Session(aws_access_key_id='Enter your key id', aws_secret_access_key='Enter your secret access key')#assigning acceskey & secret key of Goolgle-cloud for accessing thecloud account
 
 
 app = Flask(__name__)
